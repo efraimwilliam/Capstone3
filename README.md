@@ -28,7 +28,7 @@ The challenge is not just transportation—it’s uncovering patterns, predictin
 ## Conclusion
 The CatBoostRegressor model demonstrated superior performance with an R² of 0.9368, indicating that it explained 94% of the variance in the target variable. It achieved low error values (MAE: 18.77, RMSE: 30.48, MAPE: 23.52%), confirming its reliability and generalizability. Key features such as hour and week categories significantly influenced predictions. However, the model performs best on values ≤350, and care should be taken when predicting higher ranges.
 
-##Recommendations
+## Recommendations
 1. Focus on Time-Based Features
 Features like hour_category, hour_sin, and week_category play a critical role in prediction. It is recommended to integrate time-awareness into decision-making processes for better alignment with demand patterns.
 
